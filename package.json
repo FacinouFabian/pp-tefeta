@@ -1,0 +1,22 @@
+{
+  "name": "mazescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server ./",
+    "maze1": "node map.js rect.01.map",
+    "maze2": "node map.js rect.02.map",
+    "bad": "node map.js badExtension.txt",
+    "help": "node help.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "line-reader": "^0.4.0",
+    "linebyline": "^1.3.0",
+    "live-server": "^1.2.1",
+    "typescript": "^3.9.5"
+  }
+}
