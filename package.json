@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "docker build -t maze . && docker run maze",
-    "web": "npx live-server ./",
+    "web": "npx live-server ./front",
     "maze1": "ts-node map.ts rect.01.map",
     "maze2": "ts-node map.ts rect.02.map",
     "bad": "ts-node map.ts badExtension.txt",
