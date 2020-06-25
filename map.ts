@@ -78,7 +78,7 @@ function initMaze(){
 }
 
 function draw(line, elt, tab){
-    mapSize[line, elt] = tab[elt]
+    mapSize[elt] = tab[elt]
 }
 
 function displayMap(grille){
